@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabbir Khan - Python Backend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="logo">Tabbir<span>Khan</span></a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" type="button" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="home-section">
+    <div class="home-container">
+      <div class="home-content">
+        <div class="home-text">
+          <p class="intro-text">Hello I'm</p>
+          <h1 class="main-heading">Tabbir Khan</h1>
+          <div class="typing-container">
+            <span class="static-text">I'm a </span>
+            <span class="typing-text"></span>
+          </div>
+          <p class="subtitle">Web Developer • Programmer • Content Creator</p>
+          <div class="home-buttons">
+            <button class="neu-btn about-btn" type="button">
+              <i class="fas fa-user"></i> More About Me
+            </button>
+            <a class="neu-btn cv-btn" href="cv/Tabbir_Khan_Resume.pdf">
+              <i class="fas fa-download"></i> Download CV
+            </a>
+          </div>
+        </div>
+
+        <div class="home-image">
+          <div class="profile-wrapper">
+            <div class="rotating-ring"></div>
+            <div class="profile-img-container">
+              <img src="imges/tabbir_photo.jpeg" alt="Tabbir Khan" class="profile-img">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="floating-shapes" aria-hidden="true">
+        <div class="shape shape-circle"></div>
+        <div class="shape shape-triangle"></div>
+        <div class="shape shape-dots"></div>
+        <div class="shape shape-square"></div>
+        <div class="shape shape-lines"></div>
+      </div>
+    </div>
+
+    <div class="custom-cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <div class="theme-settings">
+      <button class="settings-toggle" type="button" aria-label="Theme settings">
+        <i class="fas fa-cog"></i>
+      </button>
+      <div class="theme-panel">
+        <h4>Theme Settings</h4>
+        <div class="theme-colors">
+          <button class="color-option" type="button" data-color="purple" style="background: #6c63ff;" aria-label="Purple accent"></button>
+          <button class="color-option" type="button" data-color="pink" style="background: #ff6b9d;" aria-label="Pink accent"></button>
+          <button class="color-option" type="button" data-color="blue" style="background: #4dabf7;" aria-label="Blue accent"></button>
+          <button class="color-option" type="button" data-color="green" style="background: #51cf66;" aria-label="Green accent"></button>
+          <button class="color-option" type="button" data-color="orange" style="background: #ff922b;" aria-label="Orange accent"></button>
+        </div>
+        <div class="mode-toggle">
+          <span>Light/Dark</span>
+          <label class="switch">
+            <input type="checkbox" id="themeMode">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">About Me</h2>
+      <p class="section-subtitle" data-aos="fade-up">Get to know me better</p>
+      <div class="about-content">
+        <div class="about-image" data-aos="fade-right">
+          <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?w=600&h=700&fit=crop" alt="Developer workspace">
+        </div>
+        <div class="about-text" data-aos="fade-left">
+          <h3>Backend Developer & Cloud Architect</h3>
+          <p>I'm a dedicated backend developer with a strong foundation in computer science and a passion for building robust, scalable server architectures. I help startups and businesses transform ideas into production-ready applications.</p>
+          <p>My expertise lies in designing APIs, optimizing database performance, and implementing clean development workflows. I believe in writing maintainable code and following best practices for security and performance.</p>
+          <div class="about-stats">
+            <div class="stat-card neu-card">
+              <h4>5+</h4>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat-card neu-card">
+              <h4>1+</h4>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat-card neu-card">
+              <h4>30+</h4>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+      <p class="section-subtitle" data-aos="fade-up">Technologies I work with</p>
+      <div class="skills-grid">
+        <div class="skill-card neu-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+            <div class="skill-info">
+              <h4>Node.js</h4>
+              <p>Backend Development</p>
+            </div>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" data-progress="95"></div></div>
+          <div class="skill-percentage">95%</div>
+        </div>
+
+        <div class="skill-card neu-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fab fa-python"></i></div>
+            <div class="skill-info">
+              <h4>Python</h4>
+              <p>Django & FastAPI</p>
+            </div>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" data-progress="90"></div></div>
+          <div class="skill-percentage">90%</div>
+        </div>
+
+        <div class="skill-card neu-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fas fa-database"></i></div>
+            <div class="skill-info">
+              <h4>Databases</h4>
+              <p>PostgreSQL, MongoDB</p>
+            </div>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" data-progress="88"></div></div>
+          <div class="skill-percentage">88%</div>
+        </div>
+
+        <div class="skill-card neu-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+            <div class="skill-info">
+              <h4>Docker</h4>
+              <p>Containerization</p>
+            </div>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" data-progress="85"></div></div>
+          <div class="skill-percentage">85%</div>
+        </div>
+
+        <div class="skill-card neu-card" data-aos="zoom-in" data-aos-delay="500">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fab fa-aws"></i></div>
+            <div class="skill-info">
+              <h4>AWS</h4>
+              <p>Cloud Services</p>
+            </div>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" data-progress="82"></div></div>
+          <div class="skill-percentage">82%</div>
+        </div>
+
+        <div class="skill-card neu-card" data-aos="zoom-in" data-aos-delay="600">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+            <div class="skill-info">
+              <h4>GraphQL</h4>
+              <p>API Development</p>
+            </div>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" data-progress="80"></div></div>
+          <div class="skill-percentage">80%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Experience</h2>
+      <p class="section-subtitle" data-aos="fade-up">My professional journey</p>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-content neu-card">
+            <div class="timeline-date">2022 - Present</div>
+            <h3>Senior Backend Developer</h3>
+            <h4>TechCorp Solutions</h4>
+            <p>Lead development of microservices architecture serving production users. Implemented CI/CD pipelines, mentored junior developers, and established coding standards.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-content neu-card">
+            <div class="timeline-date">2020 - 2022</div>
+            <h3>Backend Developer</h3>
+            <h4>DataFlow Inc</h4>
+            <p>Developed RESTful APIs using Node.js and Express. Optimized database queries, integrated payment gateways, and implemented real-time notifications.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-content neu-card">
+            <div class="timeline-date">2019 - 2020</div>
+            <h3>Junior Developer</h3>
+            <h4>StartUp Labs</h4>
+            <p>Built backend services for e-commerce platforms. Worked with MongoDB and Redis while collaborating with frontend teams.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-content neu-card">
+            <div class="timeline-date">2018 - 2019</div>
+            <h3>Intern Developer</h3>
+            <h4>CodeCraft Studio</h4>
+            <p>Assisted in developing web applications using Python and Django. Learned best practices and participated in code reviews.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+      <p class="section-subtitle" data-aos="fade-up">Recent work I've done</p>
+      <div class="projects-grid">
+        <div class="project-card neu-card slide-left">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="E-Commerce API Platform">
+          </div>
+          <div class="project-content">
+            <h3>E-Commerce API Platform</h3>
+            <p>Scalable RESTful API built with Node.js, Express, and PostgreSQL. Handles authentication, orders, caching, and secure data flows.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Redis</span>
+              <span class="tech-tag">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="neu-btn"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="neu-btn neu-btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card neu-card slide-right">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Real-time Chat Microservice">
+          </div>
+          <div class="project-content">
+            <h3>Real-time Chat Microservice</h3>
+            <p>WebSocket-based chat service using Socket.io and Python FastAPI. Supports group chats, file sharing, and message encryption.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">Socket.io</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="neu-btn"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="neu-btn neu-btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card neu-card slide-left">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop" alt="Analytics Dashboard Backend">
+          </div>
+          <div class="project-content">
+            <h3>Analytics Dashboard Backend</h3>
+            <p>Data processing pipeline with Python. Processes event streams with real-time analytics and reporting features.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Kafka</span>
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">GraphQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="neu-btn"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="neu-btn neu-btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+      <p class="section-subtitle" data-aos="fade-up">Let's work together</p>
+      <div class="contact-wrapper">
+        <div class="contact-info" data-aos="fade-right">
+          <div class="contact-card neu-card">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-details">
+              <h4>Location</h4>
+              <p>Dhaka</p>
+            </div>
+          </div>
+          <div class="contact-card neu-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <p>tabbirkhan6@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-card neu-card">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-details">
+              <h4>Phone</h4>
+              <p>+880130688967</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form neu-card" id="contactForm" data-aos="fade-left">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Tabbir" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Tabbir@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" class="form-control" placeholder="Project Inquiry" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="neu-btn neu-btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+      <div class="map-container" data-aos="fade-up">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.499303913!2d90.25487412376553!3d23.781067238063336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1778217022825!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Tabbir<span>Khan</span></h3>
+          <p>Building scalable backend solutions and cloud architectures that power modern applications. Let's create something amazing together.</p>
+          <div class="footer-social">
+            <a href="#" class="neu-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="neu-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="neu-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="neu-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Subscribe to get latest updates on new projects and blog posts.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email" required>
+            <button type="submit" class="neu-btn neu-btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tabbir Khan. All Rights Reserved. Built with <i class="fas fa-heart"></i></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
